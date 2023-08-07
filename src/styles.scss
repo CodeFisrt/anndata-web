@@ -1,0 +1,472 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+/* Header CSS */
+.top-header {
+	color: #fff;
+	font-size: 14px;
+}
+
+.part-1 {
+	background: #FCB606;
+	width: 80%;
+	/* padding: 0px 30px; */
+	font-size: 12px;
+	padding-left: 11%;
+}
+
+.phone-wrap {
+	background: #009245;
+	color: #fff;
+}
+
+.part-2 {
+	width: 20%;
+}
+
+.menu-list {
+	color: #111;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.theme-button-1 {
+	background: #07294D !important; 
+	color: #fff !important;
+	border: none;
+	width: 142px;
+	height: 40px;
+    select {
+        background: transparent;
+    border: none;
+    color: #fff;
+    }
+}
+
+.theme-button-2 {
+	background: #F36823;
+	color: #fff;
+	border: none;
+	width: 142px;
+	height: 40px;
+}
+
+.theme-sub-tiltle-1 {
+	color: #111;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.slider-card {
+	border-radius: 10px;
+	border: 1px solid #D9D9D9;
+	background: #FFF;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+}
+
+.s-card-1 {
+	left: 10%;
+	top: 17%;
+}
+
+.s-card-2 {
+	right: 20%;
+	top: 15%;
+}
+
+.s-card-3 {
+	bottom: 4%;
+	left: 15%;
+	z-index: 1;
+}
+
+.slider-text-1 {
+	color: #F78E0B;
+	text-align: center;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	margin: 0;
+}
+
+.slider-text-2 {
+	color: #111;
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#vector {
+	position: absolute;
+	bottom: -13%;
+	left: 17%;
+	opacity: 0.8;
+	z-index: 0;
+	width: 171px;
+}
+
+.logo-iso-wrap {
+	/* display: flex; */
+	/* justify-content: center;
+	align-items: center;
+	flex-direction: column; */
+}
+
+.iso-text {
+	font-size: 9px;
+	margin: 0;
+}
+
+/* slider section */
+.slider-section {
+	background: #F5F7FA;
+}
+
+.theme-border {
+	height: 2px;
+	background: #F36823;
+	width: 30px;
+}
+
+.theme-border-1 {
+	height: 2px;
+	background: #07294D;
+	width: 30px;
+}
+
+.main-title {
+	color: #07294D;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.theme-para {
+	color: #535967;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+/* 
+why codefirst
+*/
+.code-text {
+	font-size: 180px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	line-height: 1.15;
+	margin: 0;
+	padding: 0;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+	color: #fff;
+	text-align: center;
+}
+
+.bg-wrap {
+	display: none;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+
+.main-bg-hover:hover {
+	opacity: 0.5;
+	background: #F36823;
+}
+
+.code-text-wrap:hover .code-text {
+	-webkit-text-fill-color: #fff;
+	/* background-color: red; */
+}
+
+.code-text-wrap:hover~.bg-wrap {
+	display: block;
+}
+
+#choose_codefirst {
+	background: #414142;
+	/* padding: 150px 0px; */
+}
+
+.code-text-wrap p {
+	color: #FFF;
+	text-align: center;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+/* ABout Section */
+
+.about_Heading p {
+	font-size: 1.125rem;
+}
+
+.about_Heading p::before {
+	/* content: "";
+	display: block;
+	width: 29px;
+	height: 2px;
+	background: #07294D;
+	left: 72px;
+	top: 32%;
+	position: absolute; */
+}
+
+.Empowering_Heading h1 {
+	color: #07294D;
+	font-weight: 700;
+	font-size: 1.875rem;
+	width: 326px;
+}
+
+.Empowering_Heading svg {
+	width: 23.059px;
+	height: 16px;
+}
+
+.Empowering_para p {
+	color: #535967;
+	font-size: 1rem;
+	line-height: 1.375rem;
+}
+
+.Empowering_cards {
+	background: #F5F7FA;
+	width: 265px;
+	height: 276px;
+}
+
+.Empowering_card_img img {
+	color: #F69320;
+}
+
+.Empowering_card_para h3 {
+	color: #07294D;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.Empowering_card_para p {
+	color: #535967;
+	font-size: 16px;
+	line-height: 22px;
+	/* width: 207px;
+	height: 94px; */
+}
+
+.choose_common {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.choose_C {
+	background: #414142;
+	/* width: 342px; */
+	height: 600px;
+}
+
+.choose_C img {
+	color: rgba(7, 41, 77, 0.00);
+	font-size: 180px;
+	font-weight: 900;
+}
+
+.choose_O {
+	// background-image: url('/Assets/indian-man-bank-branc-serving-customer_O_bg_img.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	background-color: #F36823;
+	height: 600px;
+}
+
+.choose_O p {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.choose_E {
+	background: #414142;
+	/* width: 342px; */
+	height: 600px;
+}
+
+.choose_E div {
+	top: 10%;
+	left: 31%;
+}
+
+.our-service {
+	background: #F5F7FA;
+	padding-top: 50px;
+}
+.our-service-2 {
+	height: 250px;
+	background: #F5F7FA;
+}
+.service-list {
+	background: transparent;
+    text-align: left;
+    margin: 10px 0px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    color: #535967;
+	border: none;
+}
+.our-service .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background: transparent;
+    color: #F36823;
+}
+.our-service .nav-link:focus, .nav-link:hover {
+	background: transparent;
+    color: #F36823;
+}
+/* .service-list.active {
+	color: #F36823;
+} */
+
+
+/* .our_services_haeding h3 {
+	color: #07294D;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.our_services_img img {
+	height: 472px;
+	width: 565px;
+}
+
+.our_services_list ul li:first-child {
+	color: #F36823;
+	opacity: 1;
+}
+
+.our_services_list ul li {
+	color: #535967;
+	font-size: 24px;
+	font-weight: 600;
+	opacity: 0.5;
+} */
+
+.success_btn button {
+	font-size: 15px;
+	font-weight: 600;
+	background-color: #00008B;
+}
+
+.success_btn button:hover {
+	cursor: pointer;
+	background-color: #6e6efc;
+}
+
+.our_services_para p {
+	color: #535967;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.our_services_para {
+	background-color: #F5F7FA;
+}
+.community-section {
+	opacity: 0.95;
+background: #F36823;
+// background:url('../Assets/img/cummunity.jpg');
+margin-bottom: 40px;
+}
+.sub-title-3 {
+	color: #FFF;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.community-para {
+	color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0px 25%;
+	
+}
+.hiring-wrap {
+	background: #07294D;
+	padding: 30px 10px;
+	position: absolute;
+	width: 100%;
+	top: -20px;
+}
+.hiring-item  {
+	/* border-right:orange; */
+}
+.hiring-item h1 {
+	color: #F78E0B;
+	text-align: center;
+	font-size: 52px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 22px;
+	margin: 0;
+}
+.hiring-item p {
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+margin: 0;
+padding-top:15px;
+}
+.company-logo-wrap {
+	border: 1px solid #FDCACC;
+    background: #FFF;
+    width: 165px;
+    height: 165px;
+	justify-content: center;
+	align-items: center;
+}
+.carousel-control-next-icon {
+	// background-image:url('../Assets/arrow-right.png')
+}
+.carousel-control-prev-icon {
+	// background-image:url('../Assets/arrow-left.png')
+}
+.hear-it-students {
+	background: #414142;
+	color: #fff;
+}
